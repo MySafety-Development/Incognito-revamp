@@ -1,5 +1,6 @@
 services:
   - type: web
+    plan: free
     name: incognito
     env: node
     buildCommand: npm install
